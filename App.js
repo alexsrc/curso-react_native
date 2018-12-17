@@ -6,13 +6,16 @@ import {
 } from 'react-native';
 import {createBottomTabNavigator} from 'react-navigation';
 import Home from './src/screens/containers/home';
+import Header from './src/sections/components/header';
 
 type Props = {};
 class App extends Component<Props> {
   render() {
     return (
         <Home>
-            <Text>header</Text>
+            <Header>
+
+            </Header>
             <Text>buscador</Text>
             <Text>categorias</Text>
             <Text>sugerencias</Text>
@@ -20,5 +23,5 @@ class App extends Component<Props> {
     );
   }
 }
-githun
+
 export default App;
