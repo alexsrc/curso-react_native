@@ -7,6 +7,7 @@ import {
 import {createBottomTabNavigator} from 'react-navigation';
 import Home from './src/screens/containers/home';
 import Header from './src/sections/components/header';
+import SuggestionList from './src/videos/containers/suggestions-list';
 
 type Props = {};
 class App extends Component<Props> {
@@ -18,7 +19,7 @@ class App extends Component<Props> {
             </Header>
             <Text>buscador</Text>
             <Text>categorias</Text>
-            <Text>sugerencias</Text>
+            <SuggestionList/>
         </Home>
     );
   }
